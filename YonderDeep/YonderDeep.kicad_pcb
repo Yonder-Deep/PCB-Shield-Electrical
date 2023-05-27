@@ -59,7 +59,7 @@
     (aux_axis_origin 100 100)
     (grid_origin 100 100)
     (pcbplotparams
-      (layerselection 0x0000030_ffffffff)
+      (layerselection 0x0001030_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -5473,9 +5473,7 @@
   (gr_line (start 145.12 61.33) (end 137.24 61.29) (layer "F.SilkS") (width 0.12) (tstamp f6a8ab74-62a7-4016-a232-9bbaf5711a57))
   (gr_line (start 118.41 82.057381) (end 123.87 82.05) (layer "F.SilkS") (width 0.12) (tstamp fff9749c-35d9-46c3-b779-55159e3a81b9))
   (gr_rect locked (start 166 81.825) (end 187 97.675) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 0361f1e7-3200-462a-a139-1890cc8ecc5d))
-  (gr_line (start 165 47) (end 165 46.5) (layer "Dwgs.User") (width 0.1) (tstamp 1c827ef1-a4b7-41e6-9843-2391dad87159))
   (gr_rect locked (start 187 64.45) (end 169.9 77.55) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 29df31ed-bd0f-485f-bd0e-edc97e11b54b))
-  (gr_line (start 100 47) (end 100 46.5) (layer "Dwgs.User") (width 0.1) (tstamp 5003d121-afa9-4506-b1cb-3d24d05e3522))
   (gr_rect locked (start 187 46.355925) (end 169.9 59.455925) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 55c2b75d-5e45-4a08-ab83-0bcdd5f03b6a))
   (gr_arc (start 162 44) (mid 164.12132 44.87868) (end 165 47) (layer "Edge.Cuts") (width 0.1) (tstamp 22a2f42c-876a-42fd-9fcb-c4fcc64c52f2))
   (gr_line (start 165 97) (end 165 47) (layer "Edge.Cuts") (width 0.1) (tstamp 28e9ec81-3c9e-45e1-be06-2c4bf6e056f0))
