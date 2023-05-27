@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.0
         }
       },
@@ -361,7 +361,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3048,
         "via_diameter": 0.9,
         "via_drill": 0.6,
         "wire_width": 6.0
@@ -376,10 +376,14 @@
         "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "3.3V",
+          "5V",
+          "GND"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.635,
         "via_diameter": 1.0,
         "via_drill": 0.7,
         "wire_width": 6.0
